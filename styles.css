@@ -179,4 +179,7 @@ nav {
     #social {
         flex-direction: column;
     }
+    #carousel {
+        height: calc(100vh - 180px);
+    }
 }
