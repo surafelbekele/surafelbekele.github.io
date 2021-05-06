@@ -180,6 +180,6 @@ nav {
         flex-direction: column;
     }
     #carousel {
-        height: calc(100vh - 170px);
+        height: calc(100vh - 160px);
     }
 }
