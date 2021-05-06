@@ -191,11 +191,14 @@ nav {
 .card-body {
     display: flex;
     align-self: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
     margin-top: 1.5em;
     margin-left: 1em;
     font-family: Helvetica, sans-serif;
     font-weight: 100;
     font-size: .85rem;
+    height: 120px
 }
 
 #vote-around {
