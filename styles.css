@@ -175,11 +175,14 @@ nav {
     font-size: .9rem;
 }
 
-@media screen and (max-width: 333px) {
+@media screen and (max-width: 360px) {
     #social {
         flex-direction: column;
         margin-top: .25rem;
     }
+}
+
+@media screen and (max-width: 333px) {
     #carousel {
         height: calc(100vh - 166px);
     }
