@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
@@ -54,7 +55,7 @@ nav {
 }
 
 #title {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: .8125rem;
 }
 
@@ -119,10 +120,16 @@ nav {
     margin-right: 20px;
 }
 
+.card-top {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+}
+
 #betteryou {
     width: 280px;
     margin-top: 1em;
-    margin-bottom: .5em;
+    margin-bottom: .75em;
 }
 
 .tag {
@@ -130,7 +137,7 @@ nav {
     margin-bottom: .5em;
 }
 
-.type {
+.work {
     margin-right: .5rem;
     padding: 2px 6px 2px 6px;
     border-radius: 5px;
@@ -140,7 +147,17 @@ nav {
     color: #fff;
 }
 
-.time {
+.project {
+    margin-right: .5rem;
+    padding: 2px 6px 2px 6px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: #00a2ff;
+    color: #fff;
+}
+
+.curr {
     margin-right: .5rem;
     padding: 2px 6px 2px 6px;
     border-radius: 5px;
@@ -150,12 +167,77 @@ nav {
     color: #fff;
 }
 
+.past {
+    margin-right: .5rem;
+    padding: 2px 6px 2px 6px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: #ff3d00;
+    color: #fff;
+}
+
 .title {
+    width: 100%;
     display: flex;
     align-self: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1em;
+    padding-bottom: .25em;
+    border-bottom: 1px solid #000000;
+}
+
+.card-body {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 1.75em;
+    margin-left: 1em;
     font-family: Helvetica, sans-serif;
     font-weight: 100;
-    margin-top: .5em;
+    font-size: .85rem;
+}
+
+#vote-around {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #d10000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px;
+    width: 64px;
+    height: 64px;
+    box-shadow: 0px 0px 3px #333;
+    margin-top: .25em;
+    margin-bottom: .5em;
+    z-index: 3;
+}
+
+#suuqe {
+    width: 280px;
+    height: 90px;
+    padding-top: .5em;
+    margin-bottom: .5em;
+    background-color: #000;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #fff;
+    text-align: end;
+}
+
+#suuqe-img {
+    width: 280px;
+    height: 70px;
+    object-fit: contain;
 }
 
 #footer {
