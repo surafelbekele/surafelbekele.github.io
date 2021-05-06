@@ -180,6 +180,9 @@ nav {
         flex-direction: column;
         margin-top: .25rem;
     }
+    #carousel {
+        height: calc(100vh - 130px);
+    }
 }
 
 @media screen and (max-width: 333px) {
