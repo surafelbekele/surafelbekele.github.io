@@ -175,7 +175,7 @@ nav {
     font-size: .9rem;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 333px) {
     #social {
         flex-direction: column;
         margin-top: .25rem;
