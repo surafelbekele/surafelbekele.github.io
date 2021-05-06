@@ -181,7 +181,7 @@ nav {
         margin-top: .25rem;
     }
     #carousel {
-        height: calc(100vh - 110px);
+        height: calc(100vh - 140px);
     }
 }
 
