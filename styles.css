@@ -85,7 +85,7 @@ nav {
 
 #carousel {
     width: 100%;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 88px);
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
