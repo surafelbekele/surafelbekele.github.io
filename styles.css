@@ -1,3 +1,20 @@
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000;
+}
+
 html, body {
     margin: 0;
 }
@@ -42,6 +59,7 @@ nav {
 #social {
     display: flex;
     align-self: center;
+    flex-direction: row;
 }
 
 #github-img {
@@ -77,8 +95,10 @@ nav {
 
 .card-wrap {
     display: flex;
+    width: 1000%;
     align-self: center;
-    margin-left: 100px;
+    justify-self: center;
+    justify-content: center;
 }
 
 .card {
@@ -87,6 +107,8 @@ nav {
     box-shadow: 0px 0px 5px #ccc;
     border-radius: 10px;
     flex: 0 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #last-card {
@@ -151,4 +173,10 @@ nav {
     padding: 0 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     font-size: .9rem;
+}
+
+@media screen and (max-width: 360px) {
+    #social {
+        flex-direction: column;
+    }
 }
