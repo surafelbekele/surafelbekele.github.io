@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
@@ -25,7 +26,6 @@ html, body {
 nav {
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 4px 4px -4px #ccc;
 }
 
 #left {
@@ -86,22 +86,44 @@ nav {
     margin-right: .5rem;
 }
 
-#carousel {
+#main {
     width: 100%;
-    height: calc(100% - 88px);
+    height: calc(80% - 100px);
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.card-wrap {
+#hello {
+    font-family: 'Inter', Helvetica, sans-serif;
+    width: 200px;
+    border: 2px solid #000;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#status {
+    font-family: 'Inter', Helvetica, sans-serif;
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+}
+
+#contr {
+    font-family: 'Inter', Helvetica, sans-serif;
+    margin-left: 20px;
+    width: 160px;
+    border-bottom: 2px solid #000;
+}
+
+#carousel {
+    width: 100%;
+    height: calc( 80% - 100px);
     display: flex;
-    width: 1000%;
-    align-self: center;
-    justify-self: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .card {
@@ -109,15 +131,9 @@ nav {
     height: 320px;
     box-shadow: 0px 0px 5px #ccc;
     border-radius: 10px;
-    flex: 0 0 auto;
-    margin-left: 20px;
-    margin-right: 10px;
+    margin: 0px 20px 20px 20px;
     display: flex;
     flex-direction: column;
-}
-
-#last-card {
-    margin-right: 20px;
 }
 
 .card-top {
@@ -244,13 +260,12 @@ nav {
     object-fit: contain;
 }
 
-#footer {
-    position: absolute;
+#ticker {
     display: flex;
     width: 100%;
     overflow: hidden;
-    bottom: 0;
     border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
     overflow: hidden;
 }
 
