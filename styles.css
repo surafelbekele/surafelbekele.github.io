@@ -1,13 +1,17 @@
-:root:not([data-theme=dark]), [data-theme=light] {
-    --nav-background-color: rgba(255, 255, 255, 0.9);
-    --nav-border-color: rgba(115, 130, 140, 0.2);
-    --nav-logo-color: #000;
+@media (prefers-color-scheme: light){
+    :root {
+        --nav-background-color: rgba(255, 255, 255, 0.9);
+        --nav-border-color: rgba(115, 130, 140, 0.2);
+        --nav-logo-color: #000;
+    }
 }
 
-:root:not([data-theme=light]), [data-theme=dark] {
-    --nav-background-color: rgba(16, 24, 30, 0.9);
-    --nav-border-color: rgba(115, 130, 140, 0.2);
-    --nav-logo-color: #fff;
+@media (perfers-color-scheme: dark) {
+    :root {
+        --nav-background-color: rgba(16, 24, 30, 0.9);
+        --nav-border-color: rgba(115, 130, 140, 0.2);
+        --nav-logo-color: #fff;
+    }
 }
 
 nav {
