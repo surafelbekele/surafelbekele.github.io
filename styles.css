@@ -6,7 +6,7 @@
     }
 }
 
-@media (perfers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
         --nav-background-color: rgba(16, 24, 30, 0.9);
         --nav-border-color: rgba(115, 130, 140, 0.2);
