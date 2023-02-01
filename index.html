@@ -6,151 +6,126 @@
         Surafel Bekele
     </title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <nav>
-        <div id="left">
-            <img id="profile" src="mugshot.jpeg">
-            <div id="info">
-                <span id="name">Surafel Bekele</span>
-                <span id="title">Software Engineer</span>
-            </div>
-        </div>
-        <div id="social">
-            <a href="https://github.com/surafelbekele" target="_blank" rel="noopener noreferrer"><img id="github-img"
-                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" /></a>
-            <a href="https://www.linkedin.com/in/surafel-bekele-628b75194/" target="_blank"
-                rel="noopener noreferrer"><img id="linkedin-img" src="linkedin.svg"></a>
-        </div>
+    <nav class="container-fluid">
+        <ul>
+            <li>
+                <img aria-hidden="true" focusable="false" role="img" id="profile" src="mugshot.jpeg">
+            </li>
+            <li>
+                Surafel Bekele
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a class="logo" href="https://github.com/surafelbekele" target="_blank" rel="noopener noreferrer">
+                    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 496 512" height="24px">
+                        <path fill="currentColor"
+                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="logo" href="https://www.linkedin.com/in/surafel-bekele-628b75194" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg aria-hidden="true" focusable="false" role="img" height="36px" viewBox="0 0 48 48" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Icon/Social/linkedin-color" stroke="none" stroke-width="1" fill="none"
+                            fill-rule="evenodd">
+                            <path
+                                d="M20.9716667,33.5527338 L25.001,33.5527338 L25.001,27.1328007 C25.001,25.439485 25.3213333,23.7988354 27.4206667,23.7988354 C29.491,23.7988354 29.517,25.7351486 29.517,27.2404662 L29.517,33.5527338 L33.5506667,33.5527338 L33.5506667,26.4341413 C33.5506667,22.9381777 32.796,20.2505391 28.711,20.2505391 C26.7483333,20.2505391 25.432,21.3265278 24.8943333,22.3471839 L24.839,22.3471839 L24.839,20.5725357 L20.9716667,20.5725357 L20.9716667,33.5527338 Z M16.423,14.1202696 C15.1273333,14.1202696 14.0823333,15.1682587 14.0823333,16.4595785 C14.0823333,17.7508984 15.1273333,18.7992208 16.423,18.7992208 C17.7133333,18.7992208 18.761,17.7508984 18.761,16.4595785 C18.761,15.1682587 17.7133333,14.1202696 16.423,14.1202696 L16.423,14.1202696 Z M14.4026667,33.5527338 L18.4406667,33.5527338 L18.4406667,20.5725357 L14.4026667,20.5725357 L14.4026667,33.5527338 Z M9.76633333,40 C8.79033333,40 8,39.2090082 8,38.2336851 L8,9.76631493 C8,8.79065843 8.79033333,8 9.76633333,8 L38.234,8 C39.2093333,8 40,8.79065843 40,9.76631493 L40,38.2336851 C40,39.2090082 39.2093333,40 38.234,40 L9.76633333,40 Z"
+                                id="Shape" fill="currentColor"></path>
+                        </g>
+                    </svg>
+                </a>
+            </li>
+        </ul>
     </nav>
-    <div id="ticker">
-        <div id="ticker-start">Languages, Tools, & Skills</div>
-        <div class="tcontainer">
-            <div class="ticker-wrap">
-                <div class="ticker-move">
-                    <div class="ticker-item">Java</div>
-                    <div class="ticker-item">Spring Boot</div>
-                    <div class="ticker-item">Git</div>
-                    <div class="ticker-item">Thymeleaf</div>
-                    <div class="ticker-item">HTML/CSS/JS</div>
-                    <div class="ticker-item">Responsive Design</div>
-                    <div class="ticker-item">Junit</div>
-                    <div class="ticker-item">Node.js</div>
-                    <div class="ticker-item">Firebase</div>
-                    <div class="ticker-item">Angular 2+</div>
-                    <div class="ticker-item">Python</div>
-                    <div class="ticker-item">Postgres</div>
-                    <div class="ticker-item">MySQL</div>
-                    <div class="ticker-item">Leaflet.js</div>
-                    <div class="ticker-item">MITMProxy</div>
-                    <div class="ticker-item">Wireshark</div>
-                    <div class="ticker-item">Nmap</div>
-                    <div class="ticker-item">Netcat</div>
-                    <div class="ticker-item">Bash scripting</div>
-                    <div class="ticker-item">Microsoft Office Suite (Word, PowerPoint, Excel ...)</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="main">
-        <div>
-            <h2 id="hello">Hello World!</h2>
-            <br>
-            <p id="status">
+    <main class="container">
+        <div id="greeting">
+            <h1>Hello World!</h1>
+            <p>
                 I'm currently with Cognizant Softvision.
-                <br>
-                In my free time, I've been messing around with OSM Nominatim GeoJson data.
+            </p>
+            <p>
+                Recently, I've been utilizing OSM Nominatim GeoJson data.
+            </p>
+            <p>
+                I'm looking forward to creating service APIs around the data.
             </p>
         </div>
-    </div>
-    <h3 id="contr">Contributions:</h3>
-    <div id="carousel">
-        <div class="card-wrap">
-            <div class="card">
-                <div class="card-top">
-                    <a href="https://betteryou.ai" target="_blank" rel="noopener noreferrer">
+        <h4>Contributions:</h4>
+        <div class="grid">
+            <article>
+                <header>
+                    <a id="betteryoulink" href="https://betteryou.ai" target="_blank" rel="noopener noreferrer">
                         <img id="betteryou"
                             src="https://www.betteryou.ai/wp-content/uploads/2019/01/BetterYou_Horizontal_Primary.png">
                     </a>
-                    <span class="tag"><label class="work">Workplace</label><label class="past">Past</label></span>
-                    <div class="title">
-                        Tech Support Engineer Intern
+                </header>
+                <ul>
+                    <li>
+                        Firebase Cloud Functions
+                    </li>
+                    <li>
+                        Firebase Python SDK Data Query
+                    </li>
+                    <li>
+                        Data Collection, Spreadsheets
+                    </li>
+                    <li>
+                        Backlog Clearance
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <header>
+                    <div id="votearound">
+                        <a href="https://votearound.com" target="_blank" rel="noopener noreferrer">VOTE
+                            AROUND</a>
                     </div>
-                </div>
-                <div class="card-body">
-                    <div>
-                        >&nbsp;&nbsp;&nbsp;Firebase Cloud Functions
+                </header>
+                <ul>
+                    <li>
+                        Spring MVC
+                    </li>
+                    <li>
+                        Spring Data JPA (MySQL)
+                    </li>
+                    <li>
+                        Thymeleaf
+                    </li>
+                    <li>
+                        AWS Elastic Beanstalk & S3
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <header>
+                    <div id="suuqe">
+                        <a href="https://suuqe.com" target="_blank" rel="noopener noreferrer">
+                            suuqe.com
+                        </a>
                     </div>
-                    <div>
-                        >&nbsp;&nbsp;&nbsp;Firebase Python SDK Data Query
-                    </div>
-                    <div>
-                        >&nbsp;&nbsp;&nbsp;Data Collection, Spreadsheets
-                    </div>
-                    <div>
-                        >&nbsp;&nbsp;&nbsp;Backlog Clearance
-                    </div>
-                </div>
-            </div>
+                </header>
+                <ul>
+                    <li>
+                        HTML/CSS/JS
+                    </li>
+                    <li>
+                        Bootstrap 4
+                    </li>
+                    <li>
+                        ASP.NET Razor (Some)
+                    </li>
+                </ul>
+            </article>
         </div>
-        <div class="card-wrap">
-            <div class="card">
-                <div class="card-top">
-                    <a id="vote-around" href="https://votearound.com" target="_blank" rel="noopener noreferrer">V O T
-                        E</br>A&#8239;R&#8239;O&#8239;U&#8239;N&#8239;D</a>
-                    <span class="tag"><label class="project">Project</label><label class="curr">Current</label></span>
-                    <div class="title">
-                        Project Lead
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div>
-                        >&nbsp;&nbsp;&nbsp;Spring MVC
-                    </div>
-                    <div>
-                        >&nbsp;&nbsp;&nbsp;Spring Data JPA (MySQL)
-                    </div>
-                    <div>
-                        >&nbsp;&nbsp;&nbsp;Thymeleaf
-                    </div>
-                    <div>
-                        >&nbsp;&nbsp;&nbsp;AWS Elastic Beanstalk & S3
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card-wrap">
-            <div class="card">
-                <div class="card-top">
-                    <a id="suuqe" href="https://suuqe.com" target="_blank" rel="noopener noreferrer">
-                        <img id="suuqe-img" onerror="this.style.display='none'"
-                            src="https://suuqe.com/images/logo_dark.png">
-                        suuqe.com
-                    </a>
-                    <span class="tag"><label class="project">Project</label><label class="past">Past</label></span>
-                    <div class="title">
-                        Front End Developer
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div>
-                        >&nbsp;&nbsp;&nbsp;HTML/CSS/JS
-                    </div>
-                    <div>
-                        >&nbsp;&nbsp;&nbsp;Bootstrap 4
-                    </div>
-                    <div>
-                        >&nbsp;&nbsp;&nbsp;ASP.NET Razor (Some)
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    </main>
 </body>
 
 </html>
