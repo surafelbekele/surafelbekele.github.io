@@ -15,10 +15,12 @@
 }
 
 nav {
+    display: flex;
     position: fixed;
     background-color: var(--nav-background-color);
     box-shadow: 0 1px var(--nav-border-color);
     height: 60px;
+    width: 100%;
 }
 
 .logo {
@@ -49,9 +51,8 @@ main > h4 {
 }
 
 #profile {
-    width: 50px;
-    height: 50px;
-    box-shadow: 0 0 5px var(--nav-border-color);
+    width: 60px;
+    height: 60px;
 }
 
 #betteryoulink {
