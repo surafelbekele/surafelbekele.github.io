@@ -37,15 +37,16 @@ nav {
 }
 
 #greeting > h1 {
-    padding: 0%;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
 }
 
-#greeting > p {
-    padding: 0%;
-    margin: 0%;
+#greeting > ul > li {
+    list-style: none;
 }
 
+#greeting > ul > li::before {
+    content: "\003E";
+}
 main > h4 {
     padding: 0%;
     margin: 0%;
