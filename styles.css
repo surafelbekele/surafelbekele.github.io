@@ -23,38 +23,25 @@ nav {
     width: 100%;
 }
 
+
+#profile {
+    width: 60px;
+    height: 60px;
+}
+
 .logo {
     color: var(--nav-logo-color);
     margin: 1px;
 }
 
-#greeting {
-    display: flex;
-    height: 50vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.greeting {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-#greeting > h1 {
-    margin: 2rem;
-}
-
-#greeting > ul > li {
-    list-style: none;
-}
-
-#greeting > ul > li::before {
-    content: "\003E";
-}
 main > h4 {
-    padding: 0%;
     margin: 0%;
-}
-
-#profile {
-    width: 60px;
-    height: 60px;
+    padding: 0%;
 }
 
 #betteryoulink {
