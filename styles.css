@@ -25,6 +25,7 @@ nav {
 
 .logo {
     color: var(--nav-logo-color);
+    margin: 1px;
 }
 
 #greeting {
