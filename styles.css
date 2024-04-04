@@ -4,6 +4,10 @@
         --nav-border-color: rgba(115, 130, 140, 0.2);
         --nav-logo-color: #000;
     }
+
+    #cognizant {
+        content: url('https://asset.brandfetch.io/idzF9a2Y93/idMU11ZCY1.svg');
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,6 +16,10 @@
         --nav-border-color: rgba(115, 130, 140, 0.2);
         --nav-logo-color: #fff;
         --card-box-shadow: none !important;
+    }
+
+    #cognizant {
+        content: url('https://asset.brandfetch.io/idzF9a2Y93/iduCkVuLXt.svg');        
     }
 }
 
@@ -49,7 +57,7 @@ div > h4 {
     margin-top: 1em;
 }
 
-#betteryoulink {
+#betteryoulink, #cognizantlink {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -57,7 +65,12 @@ div > h4 {
 }
 
 #betteryou {
-    width: 210px;
+    width: 215px;
+    height: 55px;
+}
+
+#cognizant {
+    width: 250px;
     height: 55px;
 }
 
